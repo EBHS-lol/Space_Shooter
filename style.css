@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Press_Start";
+    src: url("fonts/PressStart2P-Regular.ttf") format("truetype"); 
+}
+
+body{
+    background-color: #000000;
+}
+
+h1{
+    color: #00FF73;
+    font-family: "Press_Start";
+    font-size: 45px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+p{
+    color: #00FF73;
+    font-family: "Press_Start";
+    font-size: 30px;
+    line-height: 15px;
+    text-align: center;
+    
+}
+
+#game-canvas{
+    border-style: solid;
+    border-color: #00FF73;
+    border-width: 10px;
+    width: fit-content;
+    
+    image-rendering: pixelated;
+}
+
+
+#wrapper {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+    text-align: center;
+}
